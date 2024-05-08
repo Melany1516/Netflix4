@@ -1,0 +1,213 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+
+body{
+    background:rgb(0, 0, 0) ;
+    padding: 20px;
+}
+
+/*CABECERA*/
+header{
+    max-width: 1000px;
+    min-height: 130px;
+    margin: 0 auto;
+border-radius: 20px 20px 0 0;
+/* Permalink - use to edit and share this gradient: https://colorzilla.com/gradient-editor/#ffffff+0,e5e5e5+82,e5e5e5+87,e5e5e5+87,e5e5e5+100 */
+background: linear-gradient(to bottom,  rgb(255, 252, 252) 0%,rgb(155, 155, 155) 82%,rgb(155, 155, 155) 87%,rgb(155, 155, 155) 87%,rgb(44, 43, 43) 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+
+
+
+}
+
+#Logo{
+    width: 320px;
+    float: left;
+    margin-top: 20px;
+    margin-left: 20px;
+    animation: 1s entradalogo 1;
+
+}
+
+#Logo img:hover {
+    filter: hue-rotate(50deg);
+}
+
+/*CABECERA*/
+
+
+
+
+
+/*MENU-HORIZONTAL*/
+#Menu-h{
+    max-width: 1000px;
+    min-height: 50px;
+    background: #000;
+    margin: 0 auto;
+}
+
+#Menu-h ul {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+
+}
+
+
+#Menu-h a {
+    color: #e5e5e5;
+    display: block;
+    padding: 20px;
+text-decoration: none;
+background: #000;
+font-family: georgia;
+font-size: 18px;
+}
+
+#Menu-h a:hover {
+background: #444;
+}
+
+#Menu-h ul ul{
+    display: none;
+    position: absolute;
+}
+
+#Menu-h ul li:hover ul {
+    display: block;
+
+}
+
+
+/*MENU-HORIZONTAL*/
+
+
+#banner {
+    max-width: 1000px;
+    min-height: 250px;
+    background: #fffefe;
+    margin: 0 auto;
+
+}
+
+#banner img{
+    width: 1000px;
+    height: 300px;
+}
+
+#Contenedor {
+    max-width: 1000px;
+    min-height: 700px;
+    background: #fff;
+    margin: 0 auto;
+}
+
+
+/*MENU-VERTICAL*/
+#Menu-V{
+width: 300px;
+min-height: 700px;
+background: #e6dada;
+float: left;
+}
+
+#Menu-V ul{
+    list-style: none;
+    padding: 10px;
+}
+
+#Menu-V a {
+    display: block;
+    color: #000000;
+    padding: 10px;
+    text-decoration: none;
+    margin-bottom: 8px;
+    border-radius: 5px;
+    font-family: arial;
+    font-size: 18px;
+    /* Permalink - use to edit and share this gradient: https://colorzilla.com/gradient-editor/#ffffff+0,e5e5e5+82,e5e5e5+87,e5e5e5+87,e5e5e5+100 */
+background: linear-gradient(to bottom,  rgb(99, 96, 96) 0%,rgb(155, 155, 155) 82%,rgb(155, 155, 155) 87%,rgb(155, 155, 155) 87%,rgb(44, 43, 43) 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+
+
+}
+
+#Menu-V a:hover {
+    background: #4e4949;
+
+}
+
+#Menu-V a:hover img {
+    animation: 1s rotacion 1;
+}
+
+/*MENU-VERTICAL*/
+
+
+/*CONTENIDO*/
+#Contenido{
+    width: 700px;
+    min-height: 700px;
+    background: #fff;
+    float: right;
+    padding: 15px;
+    box-sizing: border-box;
+}
+
+#Contenido h2 {
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+#Contenido p {
+    margin-bottom: 30px;
+    font-family: georgia;
+    font-size: 18px;
+    text-align: justify;
+}
+
+.img-po{
+    float: left;
+    margin-right: 10px;
+    margin-bottom: 10px;
+    width: 250px;
+    border: 1px solid #ccc;
+    padding: 5px;
+}
+
+/*CONTENIDO*/
+
+
+/*PIE DE PAGINA*/
+footer{
+    max-width: 1000px;
+    background: #610303;
+    margin: 0 auto;
+    border-radius: 0 0 20px 20px;
+    color: #fff;
+    text-align: center;
+    padding: 30px;
+    box-sizing: border-box;
+    font-family: georgia;
+    font-size: 18px;
+
+}
+
+/*PIE DE PAGINA*/
+
+
+
+/*KEYFRAMES*/
+
+@keyframes entradalogo {
+    0% {
+        transform: translateY(-200px);
+    }
+}
+
+@keyframes rotacion{
+    0%{
+        transform: rotate(270deg)
+    }
